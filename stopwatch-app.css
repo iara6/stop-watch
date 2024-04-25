@@ -1,0 +1,63 @@
+
+body {
+  margin: 2rem;
+}
+.watch-wrapper {
+  width: 150px;
+  background-color: darkolivegreen;
+  padding: 1rem 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px -2px rgb(0, 0, 0, 0.4);
+  border: 1px solid rgb(75, 94, 43);
+}
+
+.screen {
+  background-color: beige;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 1px solid rgb(255, 252, 54);
+  outline-offset: 6px;
+  text-align: right;
+}
+.btns-wrapper,
+.reset-wrapper {
+  text-align: center;
+}
+.btns-wrapper {
+  margin-top: 1.6rem;
+}
+.btns-wrapper button {
+  width: 48%;
+  cursor: pointer;
+}
+.reset-wrapper button {
+  width: 99%;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.reset-wrapper button {
+  background-color: rgb(193, 55, 55);
+  color: white;
+}
+.reset-wrapper button:active {
+  background-color: rgb(159, 43, 43);
+  box-shadow: none;
+}
+
+button {
+  padding: 4px 6px;
+  border: none;
+  box-shadow: 2px 2px 10px -1px rgb(0, 0, 0, 0.4);
+}
+
+/* button:hover {
+  box-shadow: none;
+} */
+
+.btns-wrapper button:active {
+  background-color: rgb(191, 191, 191);
+  box-shadow: none;
+}
